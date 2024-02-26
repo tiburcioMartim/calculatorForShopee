@@ -1,3 +1,4 @@
+
 function calcular(event) {
     event.preventDefault(); // Não permite o reload automatico do envio de formulário. Isso não deixa zerar os dados.
 
