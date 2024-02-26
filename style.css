@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 30px;
+    color: #dee2e6;
+    background-color: #212529;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.img-logo{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+h1{
+    width: 450px;
+    margin: auto;    
+}
+
+form{
+    width: 450px;
+    margin: auto;
+}
+
+body #resultadoFinal{
+    width: 450px;
+    margin: auto;
+}
