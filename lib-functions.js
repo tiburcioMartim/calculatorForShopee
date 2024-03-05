@@ -47,7 +47,7 @@ function verificarCondicional(produtoComMargemDeLucroInclusa, value) {
         if (value === 'yes') {
             aux = shopeeComFG(produtoComMargemDeLucroInclusa)
             aux = produtoComMargemDeLucroInclusa - aux
-            
+
         } else if (value === 'no') {
             aux = shopeeSemFG(produtoComMargemDeLucroInclusa)
             produtoComMargemDeLucroInclusa - aux

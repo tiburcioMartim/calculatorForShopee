@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     padding: 30px;
     color: #dee2e6;
     background-color: #212529;
@@ -11,7 +11,7 @@ body{
     -webkit-tap-highlight-color: transparent;
 }
 
-.img-logo{
+.img-logo {
     display: block;
     margin: auto;
     margin-bottom: 30px;
@@ -19,17 +19,36 @@ body{
     width: 150px;
 }
 
-h1{
-    width: 450px;
-    margin: auto;    
-}
-
-form{
+h1 {
     width: 450px;
     margin: auto;
 }
 
-body #resultadoFinal{
+form {
+    width: 450px;
+    margin: auto;
+}
+
+.taxaContainer {
+    position: relative;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    width: 10rem;
+}
+
+.taxaContainer .taxaName {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+}
+
+.taxaContainer .taxaButton {
+    position: absolute;
+    left: 0;
+}
+
+#resultadoFinal {
     width: 450px;
     margin: auto;
 }

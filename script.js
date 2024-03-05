@@ -6,10 +6,10 @@ function calcular(event) {
 
     const inputMargemLucro = document.getElementById('margemLucro');
     const margemLucro = parseFloat(inputMargemLucro.value);
-    
+
     const inputIsFreteGratisSim = document.getElementById('freteGratisSim');
     const inputIsFreteGratisNao = document.getElementById('freteGratisNao');
-    
+
     let produtoComMargemDeLucroInclusa = adicionarMargemDeLucroNoProduto(precoCusto, margemLucro)
     let freteGratis = null;
 
@@ -17,16 +17,16 @@ function calcular(event) {
     let valueCalculate = null;
     if (inputIsFreteGratisSim.checked) {
         freteGratis = inputIsFreteGratisSim.value;
-        valueCalculate = verificarCondicional(produtoComMargemDeLucroInclusa, freteGratis)  
-        valueCalculate = produtoComMargemDeLucroInclusa - valueCalculate     
+        valueCalculate = verificarCondicional(produtoComMargemDeLucroInclusa, freteGratis)
+        valueCalculate = produtoComMargemDeLucroInclusa - valueCalculate
 
 
     } else if (inputIsFreteGratisNao.checked) {
         freteGratis = inputIsFreteGratisNao.value;
-        valueCalculate = verificarCondicional(produtoComMargemDeLucroInclusa, freteGratis)  
-        valueCalculate = produtoComMargemDeLucroInclusa - valueCalculate      
+        valueCalculate = verificarCondicional(produtoComMargemDeLucroInclusa, freteGratis)
+        valueCalculate = produtoComMargemDeLucroInclusa - valueCalculate
     }
-    
+
 
 
 
